@@ -10,6 +10,7 @@ public class FixedThreadPoolImple {
 
         for (int i = 0; i < 100; i++) {
             service.execute(new Task());
+            service.execute(()->{});
         }
 
         System.out.println("Main : Thread Name : " + Thread.currentThread().getName());

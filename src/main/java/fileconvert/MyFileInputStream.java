@@ -1,4 +1,4 @@
-package fileHandling.outputStream.myFileIOStream;
+package fileconvert;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -11,7 +11,7 @@ public class MyFileInputStream {
 
     public static void main(String[] args) throws IOException {
 
-        String SOURCE_PATH = "/home/admin1/IdeaProjects/Test/src/fileHandling/outputStream/myFileIOStream/";
+        String SOURCE_PATH = "/home/admin1/IdeaProjects/JavaConcurrent/src/main/java/fileconvert/";
         String RAW_STREAM_FILE = "stream";
 
         String H264_STREAM_FILE = "streamVid1.H264";
